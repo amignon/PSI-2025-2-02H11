@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class ExemploVetor {
     public static void main(String[] args) {
         int[] numeros = criaVetor(7);
-        System.out.println("*** VETOR ORIGINAL ***");Au
+        System.out.println("*** VETOR ORIGINAL ***");
         imprimeVetor(numeros);
         int quantidade = modificaVetor(numeros);
         System.out.println("*** VETOR MODIFICADO ***");
